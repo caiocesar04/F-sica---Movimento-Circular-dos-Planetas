@@ -1,0 +1,31 @@
+body {
+  background: black;
+  height: 200vmin;
+}
+.object {
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY( 50vmin );
+}
+.orbita{
+  border: 0.1vmin solid lightgrey;
+}
+#sol {
+  height: 30vmin;
+  width: 30vmin;
+}
+#planeta {
+  z-index: 1;
+  height: 15vmin;
+  width: 15vmin;
+}
+
+h4{
+   color:white;
+
+}
