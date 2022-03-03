@@ -13,9 +13,9 @@ orbita.style.width = `${raio}vmin`;
 setInterval(() => {
   planeta.style.left = `${Math.cos(radiano) * raio}vmin`;
   planeta.style.top = `${Math.sin(radiano) * raio}vmin`;
-  velocidade = massa/raio;
+  velocidade =  `${Math.sqrt (massa/raio)}`;
   radiano += velocidade * massa;
-}, 1000 / 60);
+}, 1000 / 60); 
 
 function mudarValores() {
   raio = raioElement.value;
