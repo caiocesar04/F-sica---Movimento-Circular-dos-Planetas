@@ -9,29 +9,33 @@
 
     <h4>
       Insira os seguintes valores:
-      <br />
+    </h4>
+    <h4>
       Raio da Distância:
       <input type="number" name="raio" value="80" id="raio" />
-      <br />
+    </h4>
+    <h4>
       Massa:
-      <input type="number" name="massa" value="1000" id="massa" />
-      <br />
+      <input type="number" name="massa" value="0.10" id="massa" />
+    </h4>
+    <h4>Velocidade <span id="velocidade"></span></h4>
+    <h4>Tempo <span id="tempo"></span></h4>
+
       <input
-        onclick="mudarValores()"
-        type="submit"
+      onclick="mudarValores()"
+      type="submit"
         name="concluir"
         id="concluir"
       />
-    </h4>
+   
     <link rel="stylesheet" href="main.css" />
   </head>
 
   <body>
     <img class="object" src="sol.png" alt="" id="sol" />
     <img class="object planeta" src="planeta.png" alt="" id="planeta" />
-
+    
     <div class="object orbita" id="orbita"></div>
   </body>
   <script src="script.js"></script>
 </html>
-
